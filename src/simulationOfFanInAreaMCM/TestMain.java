@@ -7,8 +7,15 @@
  * @version 1.0
  */
 package simulationOfFanInAreaMCM;
-public class TestMain {
+
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class TestMain extends JPanel{
 	public static void main(String[] args){
-		
+		int[] a = {1,2};
+		System.out.println(Math.atan(1));
 	}
+
 }

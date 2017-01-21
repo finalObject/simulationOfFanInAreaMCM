@@ -7,6 +7,30 @@
  * @version 1.0
  */
 package simulationOfFanInAreaMCM;
-public class Scene {
 
+
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+//№ЬАн
+public class Scene{
+	JFrame frame;
+	View view;
+	ArrayList<Car> cars;
+	public Scene(){
+		
+	}
+	public void paint(){
+		frame = new JFrame();
+		view = new View();
+		frame.add(view);
+		frame.setTitle("fan in area");
+		frame.pack();
+		frame.setVisible(true);
+	}
+	public static void main(String[] args){
+		Scene scene =new Scene();
+		scene.paint();
+		
+	}
 }
