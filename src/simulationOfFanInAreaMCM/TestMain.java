@@ -14,8 +14,8 @@ import javax.swing.JPanel;
 
 public class TestMain extends JPanel{
 	public static void main(String[] args){
-		int[] a = {1,2};
-		System.out.println(Math.atan(1));
+		double[][] a =new double[3][2];
+		System.out.println(a.length);
 	}
 
 }
