@@ -1,2 +1,2 @@
 # simulationOfFanInAreaMCM
-Click [here](www.sillycarol.com/mcm2017) to lean more
+Click [here](http://www.sillycarol.com/mcm2017) to lean more
